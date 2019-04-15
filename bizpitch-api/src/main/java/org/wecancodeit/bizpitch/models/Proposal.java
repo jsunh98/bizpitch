@@ -175,8 +175,9 @@ public class Proposal {
 	public void removeIndustry(Industry industry) {
 		industries.remove(industry);
 	}
-	
-	
+	public void addEntToProposal(Entrepreneur ent) {
+		this.ent = ent;
+	}
 	
 	
 }
